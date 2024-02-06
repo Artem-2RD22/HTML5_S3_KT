@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    cursor:default;
+}
+
+header {
+    background-color: #ff9800;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+#features ul ul{
+    background-color: #eee;
+    width: 50%;
+    font-size: smaller;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    color: #333;
+    list-style: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    margin: 0;
+    height: 70px;
+}
+
+#checkCompatibility {
+    margin: 5px;
+    padding: 5px;
+}
+
+#compatibilityResult {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    width: 500px;
+}
+.good-result {
+    background-color: aquamarine;
+}
+
+.bad-result {
+    background-color: #ff9800;
+}
+
+#contextMenu {
+    width: auto;
+    font-size: smaller;
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    background: white;
+    border: 1px solid #cccccc;
+    border-radius: 12px;
+    padding: 8px 0;
+}
+
+#contextMenu div {
+    padding: 4px 8px;
+}
+
+#contextMenu div:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+
+}
+
+.hidden { display: none; }
+
+.menu {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    z-index: 2;
+    padding: 5px;
+    font-size: small;
+    
+}
+
+.menu input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.menu input:hover{
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.menu div {
+    text-align: center;
+}
+
+.wInfo {
+    font-size: small;
+    padding: 2px;
+    margin: 0;
+}
+
