@@ -518,7 +518,7 @@ function init() {
                     break;
                 case 'Информация о погоде':
                     // Используется Тестовы ключ API Яндекс погоды, срок действия ограничен 30 днями
-                    fetch(`https://217.18.62.180/weather?lat=${clickCoords[0]}&lon=${clickCoords[1]}`)
+                    fetch(`http://217.18.62.180:3001/weather?lat=${clickCoords[0]}&lon=${clickCoords[1]}`)
                         .then(response => response.json())
                         .then(data => displayWeather(data))
                         .catch(error => console.error('Ошибка:', error));
